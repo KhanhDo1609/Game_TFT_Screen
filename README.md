@@ -9,7 +9,7 @@ The previews loop on this page. Each MP4 link downloads the full recording.
 | Menu navigation | Snake | Space Shooter |
 | --- | --- | --- |
 | ![Joystick moving the menu highlight](media/demos/menu.gif) | ![Snake on the physical TFT](media/demos/snake.gif) | ![Space Shooter on the physical TFT](media/demos/shooter.gif) |
-| [Download menu video (MP4)](media/demos/menu.mp4?raw=true) | [Download Snake video (MP4)](media/demos/snake.mp4?raw=true) | [Download Space Shooter video (MP4)](media/demos/shooter.mp4?raw=true) |
+| [Download menu video (MP4)](https://raw.githubusercontent.com/KhanhDo1609/Game_TFT_Screen/main/media/demos/menu.mp4) | [Download Snake video (MP4)](https://raw.githubusercontent.com/KhanhDo1609/Game_TFT_Screen/main/media/demos/snake.mp4) | [Download Space Shooter video (MP4)](https://raw.githubusercontent.com/KhanhDo1609/Game_TFT_Screen/main/media/demos/shooter.mp4) |
 
 ## Circuit and simulation
 
