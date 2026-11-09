@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Khanh Do",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-ili9341", "id": "tft", "top": 0, "left": 356, "attrs": {} },
+    { "type": "wokwi-analog-joystick", "id": "joystick", "top": -155, "left": 45, "attrs": {} },
+    { "type": "wokwi-ky-040", "id": "encoder", "top": 225, "left": 95, "attrs": {} },
+    { "type": "wokwi-pushbutton-6mm", "id": "back", "top": 230, "left": 285, "attrs": { "color": "green", "label": "Back" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 320, "left": 356, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:5V", "tft:VCC", "red", [] ],
+    [ "uno:GND.1", "tft:GND", "black", [] ],
+    [ "uno:10", "tft:CS", "orange", [] ],
+    [ "uno:9", "tft:D/C", "gold", [] ],
+    [ "uno:11", "tft:MOSI", "green", [] ],
+    [ "uno:13", "tft:SCK", "blue", [] ],
+    [ "uno:12", "tft:MISO", "violet", [] ],
+    [ "uno:5V", "joystick:VCC", "red", [] ],
+    [ "uno:GND.2", "joystick:GND", "black", [] ],
+    [ "uno:A0", "joystick:HORZ", "green", [] ],
+    [ "uno:A1", "joystick:VERT", "blue", [] ],
+    [ "uno:2", "joystick:SEL", "violet", [] ],
+    [ "uno:5V", "encoder:VCC", "red", [] ],
+    [ "uno:GND.2", "encoder:GND", "black", [] ],
+    [ "uno:3", "encoder:CLK", "blue", [] ],
+    [ "uno:4", "encoder:DT", "green", [] ],
+    [ "uno:5", "encoder:SW", "violet", [] ],
+    [ "uno:6", "back:1.l", "green", [] ],
+    [ "uno:GND.3", "back:2.l", "black", [] ],
+    [ "uno:7", "buzzer:2", "green", [] ],
+    [ "uno:GND.3", "buzzer:1", "black", [] ]
+  ],
+  "dependencies": {}
+}
